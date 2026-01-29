@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Sederhana</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaeaea;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 16px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #1976D2;
+    }
+
+    .box {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1 id="judul">Kamu Peler🗿😹</h1>
+    <p id="teks">Ini adalah website HTML full satu file.</p>
+
+    <button onclick="ubah()">Klik Saya</button>
+  </div>
+
+  <script>
+    function ubah() {
+      document.getElementById("judul").innerHTML = "Waa Ngentod😈🗿😹";
+      document.getElementById("teks").innerHTML =
+        "Kamu bisa edit HTML, CSS, dan JavaScript di satu file saja!";
+      document.body.style.backgroundColor = "#cce7ff";
+    }
+  </script>
+
+</body>
+</html>
